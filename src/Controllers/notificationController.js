@@ -12,7 +12,7 @@ module.exports = {
 
     var headers = {
       "Content-Type": "application/json; charset=utf-8",
-      Authorization: "Basic OWI0ODJhOGUtNzEzNS00N2ZkLTg2ZGQtNDkxNmY1ZTFmNGMx"
+      Authorization: "Basic <<INSERT YOU ONESIGNAL AUTHORIZATION TOKEN HERE>>"
     };
 
     var options = {
