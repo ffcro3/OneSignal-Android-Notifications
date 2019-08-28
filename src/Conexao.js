@@ -1,7 +1,7 @@
 //CONEXÃO COM BANCO
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('monthly_tech', 'fabricio', 'pansr25372',{
+const sequelize = new Sequelize('database', 'username', 'password',{
     host: 'localhost',
     dialect: 'mysql'  
 })
